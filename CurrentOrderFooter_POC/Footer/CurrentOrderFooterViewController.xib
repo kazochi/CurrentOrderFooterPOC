@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CurrentOrderFooterViewController" customModule="CurrentOrderFooter_POC" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="6yc-oT-tgz"/>
+                <outlet property="viewBagButton" destination="tpK-Sy-0Jb" id="UG0-wv-xfL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="463" height="75"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpK-Sy-0Jb">
+                    <rect key="frame" x="28.5" y="17" width="406" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="406" id="hVz-fZ-Z6r"/>
+                        <constraint firstAttribute="height" constant="41" id="u7t-4C-HJg"/>
+                    </constraints>
+                    <state key="normal" title="View Bag">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tpK-Sy-0Jb" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="1cS-4z-d0s"/>
+                <constraint firstItem="tpK-Sy-0Jb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dSG-uu-T1j"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="173.18840579710147" y="-117.52232142857142"/>
+        </view>
+    </objects>
+</document>

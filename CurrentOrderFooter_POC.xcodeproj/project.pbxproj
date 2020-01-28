@@ -13,6 +13,15 @@
 		C2006BB923DF5B00008C3C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2006BB723DF5B00008C3C47 /* Main.storyboard */; };
 		C2006BBB23DF5B03008C3C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2006BBA23DF5B03008C3C47 /* Assets.xcassets */; };
 		C2006BBE23DF5B03008C3C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2006BBC23DF5B03008C3C47 /* LaunchScreen.storyboard */; };
+		C2006BC723DF863A008C3C47 /* FooterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2006BC623DF863A008C3C47 /* FooterCoordinator.swift */; };
+		C2006BC923DF8655008C3C47 /* FooterProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2006BC823DF8655008C3C47 /* FooterProviding.swift */; };
+		C2006BCB23DF869B008C3C47 /* CurrentOrderFooterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2006BCA23DF869B008C3C47 /* CurrentOrderFooterProvider.swift */; };
+		C2006BCD23DF86C9008C3C47 /* CurrentOrderFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2006BCC23DF86C9008C3C47 /* CurrentOrderFooterViewController.swift */; };
+		C2006BCF23DF8737008C3C47 /* PastOrderFooterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2006BCE23DF8737008C3C47 /* PastOrderFooterProvider.swift */; };
+		C2006BD123DF8744008C3C47 /* PastOrderFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2006BD023DF8743008C3C47 /* PastOrderFooterViewController.swift */; };
+		C2006BD323DF8B79008C3C47 /* FooterContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2006BD223DF8B79008C3C47 /* FooterContentViewController.swift */; };
+		C2006BD523DFABED008C3C47 /* CurrentOrderFooterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2006BD423DFABED008C3C47 /* CurrentOrderFooterViewController.xib */; };
+		C2006BD723DFADA7008C3C47 /* PastOrderFooterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2006BD623DFADA7008C3C47 /* PastOrderFooterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		C2006BBA23DF5B03008C3C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2006BBD23DF5B03008C3C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2006BBF23DF5B03008C3C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2006BC623DF863A008C3C47 /* FooterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCoordinator.swift; sourceTree = "<group>"; };
+		C2006BC823DF8655008C3C47 /* FooterProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterProviding.swift; sourceTree = "<group>"; };
+		C2006BCA23DF869B008C3C47 /* CurrentOrderFooterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentOrderFooterProvider.swift; sourceTree = "<group>"; };
+		C2006BCC23DF86C9008C3C47 /* CurrentOrderFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentOrderFooterViewController.swift; sourceTree = "<group>"; };
+		C2006BCE23DF8737008C3C47 /* PastOrderFooterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderFooterProvider.swift; sourceTree = "<group>"; };
+		C2006BD023DF8743008C3C47 /* PastOrderFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderFooterViewController.swift; sourceTree = "<group>"; };
+		C2006BD223DF8B79008C3C47 /* FooterContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContentViewController.swift; sourceTree = "<group>"; };
+		C2006BD423DFABED008C3C47 /* CurrentOrderFooterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrentOrderFooterViewController.xib; sourceTree = "<group>"; };
+		C2006BD623DFADA7008C3C47 /* PastOrderFooterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PastOrderFooterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +77,29 @@
 				C2006BB123DF5B00008C3C47 /* AppDelegate.swift */,
 				C2006BB323DF5B00008C3C47 /* SceneDelegate.swift */,
 				C2006BB523DF5B00008C3C47 /* ViewController.swift */,
+				C2006BC523DF85CA008C3C47 /* Footer */,
 				C2006BB723DF5B00008C3C47 /* Main.storyboard */,
 				C2006BBA23DF5B03008C3C47 /* Assets.xcassets */,
 				C2006BBC23DF5B03008C3C47 /* LaunchScreen.storyboard */,
 				C2006BBF23DF5B03008C3C47 /* Info.plist */,
 			);
 			path = CurrentOrderFooter_POC;
+			sourceTree = "<group>";
+		};
+		C2006BC523DF85CA008C3C47 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				C2006BD223DF8B79008C3C47 /* FooterContentViewController.swift */,
+				C2006BC623DF863A008C3C47 /* FooterCoordinator.swift */,
+				C2006BC823DF8655008C3C47 /* FooterProviding.swift */,
+				C2006BCA23DF869B008C3C47 /* CurrentOrderFooterProvider.swift */,
+				C2006BCC23DF86C9008C3C47 /* CurrentOrderFooterViewController.swift */,
+				C2006BD423DFABED008C3C47 /* CurrentOrderFooterViewController.xib */,
+				C2006BCE23DF8737008C3C47 /* PastOrderFooterProvider.swift */,
+				C2006BD023DF8743008C3C47 /* PastOrderFooterViewController.swift */,
+				C2006BD623DFADA7008C3C47 /* PastOrderFooterViewController.xib */,
+			);
+			path = Footer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2006BBE23DF5B03008C3C47 /* LaunchScreen.storyboard in Resources */,
+				C2006BD723DFADA7008C3C47 /* PastOrderFooterViewController.xib in Resources */,
 				C2006BBB23DF5B03008C3C47 /* Assets.xcassets in Resources */,
+				C2006BD523DFABED008C3C47 /* CurrentOrderFooterViewController.xib in Resources */,
 				C2006BB923DF5B00008C3C47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2006BC923DF8655008C3C47 /* FooterProviding.swift in Sources */,
 				C2006BB623DF5B00008C3C47 /* ViewController.swift in Sources */,
+				C2006BC723DF863A008C3C47 /* FooterCoordinator.swift in Sources */,
+				C2006BD123DF8744008C3C47 /* PastOrderFooterViewController.swift in Sources */,
+				C2006BCD23DF86C9008C3C47 /* CurrentOrderFooterViewController.swift in Sources */,
 				C2006BB223DF5B00008C3C47 /* AppDelegate.swift in Sources */,
+				C2006BCB23DF869B008C3C47 /* CurrentOrderFooterProvider.swift in Sources */,
+				C2006BD323DF8B79008C3C47 /* FooterContentViewController.swift in Sources */,
+				C2006BCF23DF8737008C3C47 /* PastOrderFooterProvider.swift in Sources */,
 				C2006BB423DF5B00008C3C47 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
